@@ -9,7 +9,6 @@ MAX_ATTEMPTS = 3
 IMAGE_FOLDER = ".intruder_logs"  # hidden folder (starts with dot)
 LOCK_FOLDER = "files_to_lock"
 KEY_FILE = "filekey.key"
-
 if not os.path.exists(IMAGE_FOLDER):
     os.makedirs(IMAGE_FOLDER)
 
