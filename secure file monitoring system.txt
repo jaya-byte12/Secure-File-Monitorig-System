@@ -19,7 +19,6 @@ def generate_key():
     with open(KEY_FILE, "wb") as key_file:
         key_file.write(key)
     return key
-
 def encrypt_files(folder):
     key = generate_key()
     fernet = Fernet(key)
