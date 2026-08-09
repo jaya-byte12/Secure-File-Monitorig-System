@@ -11,7 +11,6 @@ LOCK_FOLDER = "files_to_lock"
 KEY_FILE = "filekey.key"
 if not os.path.exists(IMAGE_FOLDER):
     os.makedirs(IMAGE_FOLDER)
-
 attempts = 0
 typed_password = ""
 
