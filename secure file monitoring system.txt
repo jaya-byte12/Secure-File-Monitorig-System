@@ -57,7 +57,6 @@ def on_key(event):
         typed_password = typed_password[:-1]
     elif len(event.name) == 1:  # normal key
         typed_password += event.name
-
 # Start background key listener
 keyboard.on_press(on_key)
 
