@@ -40,7 +40,6 @@ def capture_image():
         cv2.imwrite(filename, frame)
     cam.release()
     cv2.destroyAllWindows()
-
 # Keyboard monitor
 def on_key(event):
     global typed_password, attempts
