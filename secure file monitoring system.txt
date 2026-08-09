@@ -3,7 +3,6 @@ import os
 import time
 import keyboard
 from cryptography.fernet import Fernet
-
 # ---------- CONFIG ----------
 PASSWORD = "mysecret"
 MAX_ATTEMPTS = 3
