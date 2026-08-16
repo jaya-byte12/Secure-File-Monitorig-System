@@ -1,4 +1,4 @@
-import c
+import cv
 import os
 import time
 import keyboard
