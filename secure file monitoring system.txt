@@ -1,6 +1,6 @@
 import cv2
 import os
-import time
+import 
 import keyboard
 from cryptography.fernet import Fernet
 # ---------- CONFIG ----------
